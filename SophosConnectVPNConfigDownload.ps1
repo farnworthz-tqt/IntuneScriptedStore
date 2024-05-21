@@ -13,8 +13,8 @@ if (-not (Test-Path -Path $path)) {
 }
 
 # Define the URL of the file to download and the destination file path
-$fileUrl = "https://raw.githubusercontent.com/your-repo/your-project/main/your-file.ext"
-$destinationFile = "$path\your-file.ext"
+$fileUrl = "https://raw.githubusercontent.com/farnworthz-tqt/IntuneScriptedStore/main/sslvpnconfig.ovpn"
+$destinationFile = "$path\sslvpnconfig.ovpn"
 
 # Download the file
 try {
